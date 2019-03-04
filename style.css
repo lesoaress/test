@@ -1,0 +1,72 @@
+.container{
+	background-color: skyblue;
+	height: 100%;
+	width: 100%;
+}
+
+#name{
+	width: 100%;
+}
+
+h1{
+	text-align: center;
+	color: black;
+	font-family: monospace;
+}
+
+fieldset, table{
+	font-family: monospace;
+	color:black;
+	background-color: rgb(255,255,255,0.4);
+}
+
+
+#phone{
+	margin-right: 0%;
+}
+
+#buttonSave, #buttonCancel{
+	float: right;
+	margin-right: 1%;
+}
+
+#address{
+	width: 92%;
+	margin-right: 1%;
+}
+
+#number{
+	width: 5%;
+}
+
+.sizeInput{
+	width: 32%;
+	margin-right: 1%;
+}
+
+.sizeInput2{
+	width: 45%;
+	margin-right: 1%;
+}
+
+#notes{
+	width: 100%;
+
+}
+
+#buttonAdd{
+	float: right;
+}
+
+th, td{
+	border: black solid 1px;
+	text-align: center;
+}
+
+table{
+	width: 100%;
+}
+
+#nameTable{
+	width: 70%;
+}

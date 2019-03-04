@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Employees Register</title>
+	<meta charset="utf-8">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="functions.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript">
+		$(document).ready(function(){
+			var num = window.location.href.split("=");
+    		if(num.length>1){
+    			$("#buttonSave").attr("onclick", "EditEmployee("+num[1]+")");
+    		};
+		});
+	</script>
+</head>
+<body>
+	<div class="container">
+		<h1>Employees Register</h1>
+		<fieldset>
+			<h2>Create/Edit</h2>
+			<hr>
+			<form id="form">
+				<input type="text" id="name" placeholder="Name" value=""> 
+				<br>
+				<br>
+				<input type="text" id="age" class="sizeInput" placeholder="Age">
+				<input type="text" id="birthDay" class="sizeInput" placeholder="Birth Day">
+				<input type="text" id="phone" class="sizeInput" placeholder="Phone Number">
+				<br>
+				<br>
+				<input type="text" id="rg" class="sizeInput" placeholder="RG">
+				<input type="text" id="cpf"  class="sizeInput" placeholder="CPF">
+				<br>
+				<br>
+				<input type="text" id="address"  placeholder="Address">
+				<input type="text" id="number" placeholder="Number">
+				<br>
+				<br>
+				<input type="text" id="city" class="sizeInput2" placeholder="City">
+				<input type="text" id="state" class="sizeInput2" placeholder="State">
+				<br>
+				<br>
+				<input type="text" id="notes" placeholder="Notes">
+				<br>
+				<br>
+				<input type="reset" id="buttonCancel" value="Cancel">
+				<button type="button" id="buttonSave" onclick="AddEmployee()">Save</button>
+			</form>
+		</fieldset>
+	</div>
+</body>
+</html>
