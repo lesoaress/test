@@ -1,1 +1,1 @@
-# Teste realizado para processo seletivo em vaga e estágio
+# Teste realizado para processo seletivo em vaga de estágio
